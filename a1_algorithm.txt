@@ -1,0 +1,27 @@
+Algorithm
+
+For the After() function the code was giving to us and it just has it where it
+hits the limit of how many months in a year, it will add a year and if it goes 
+over the limit of days in the month. it will make it the next month.
+
+The before() function was the same in the sense of the after() function but 
+instead you needed it to minus one day. so for the month I had to make it that if the value of the day be 0 or less 
+then 1 that it would make the if statement run to then make to minus 1 from the month and then set the day 
+to the last day of that new month using the mon_max function that has the amount of the days in a month in an array. 
+We have an IF statement to see if the month now becomes 0 or less then one to make it that we need it to be the year before and 
+with this it will set the year - 1 and the month to 12 and day to 31.
+
+The Valid_date() function just checks to see if the user has entered the correct number of 
+chracters of 10 and then it checks to see if the month or day is too big depending on the month 
+and will return an error message if the numbers entered are incorrect.
+
+The Leap_year() function is the function that checks to see if the year is a leap year
+to see if FEB has 28 or 29 days . By dividing it by different numbers like 4, 100, 400 because
+a leap year happens every 4 years and we can check to see if the year is divided and not 
+left with a remander. 
+
+the days_in_mon() function is just the function that holds the array that holds the month and the amount
+of days in each and also calls on the Leap_year function to get the feb_max for how many days in FEB
+
+
+

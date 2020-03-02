@@ -119,8 +119,10 @@ def before(today):
  if tmp_month <= 0:
   to_month = 12
   year = year - 1
+  to_day = 31
  else:
-  to_month = tmp_month 
+  to_month = tmp_month
+  to_day = tmp_day
  if tmp_month < 0:
   to_day = tmp_day 
 
